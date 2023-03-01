@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="../css/style.min.css">
+   <title>Asosiy sahifa</title>
+</head>
+
+<body>
+   <div class="container w-[100%] m-auto bg-blue-50">
+      <header class="header bg-white h-24 w-[100%]">
+         <div class="">
+            <div class="bosh flex ml-[1020px]">
+               <img src="./images/Vector.svg" alt="">
+               <span class="ml-2 ">Aloqa uchun</span>
+               <select aria-label="Изменить язык отображения" class=" ml-56">
+                  <option value="UZ">UZ</option>
+                  <option value="En">En</option>
+                  <option value="Ру">Ру</option>
+               </select>
+            </div>
+            <nav class="pt-4 ml-36 flex">
+               <span class="burger">
+                  <i class='bx bx-menu'></i>
+               </span>
+               <picture class="logo">
+                  <source media="(max-width:375px)" srcset="./images/Logo@2x.svg">
+                  <source media="(max-width:768px)" srcset="./images/Logo.svg">
+                  <img src="./images/Logo.svg" alt="img">
+               </picture>
+
+               <button class="btn ml-[106px] mt-[-5px] pt-3 pl-[21px] pr-[19px] pb-[13px] rounded-lg">
+                  <i class='bx bx-menu'></i>
+                  <span class="ml-2">KATALOG</span>
+               </button>
+
+               <input type="search" placeholder="Maxsulotlarni izlash"
+                  class="input ml-12 border rounded-lg h-11 w-[396px] pl-[18px]">
+
+               <span
+                  class="lupa bg-blue-600 absolute ml-[728px] w-[64px] h-[46px] mt-[1px] text-center rounded-r-lg pt-3">
+                  <i class='bx bx-search-alt-2' style='color:rgba(255, 255, 255, 0.989)'></i>
+               </span>
+
+               <span class="heart bg-green-100 ml-20 p-[12px] pb-1 rounded-lg">
+                  <i class='bx bx-heart font text-blue-600 '></i>
+               </span>
+
+               <span class="heart bg-green-100 ml-16 p-[12px] pb-1 rounded-lg">
+                  <i class='bx bx-cart font text-blue-600'></i>
+               </span>
+
+               <a href="#" class="put px-[31px] pt-[13px] rounded-lg ml-[59px]">Kirish</a>
+            </nav>
+         </div>
+      </header>
+
+      <main class="main pt-10 ml-[160px]">
+         <div class="corusel flex overflow-x-hidden w-[1230px]">
+            <div class="corusel_list flex ">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
+               <img src="./images/Frame2@2x.png" alt="" class="corusel-item item">
+            </div>
+         </div>
+         <span class="prev absolute w-11 h-11 mt-[-210px] ml-[-70px] rounded-3xl py-1 px-[12px] text-[25px]">
+            <i class='bx bx-left-arrow-alt'></i>
+         </span>
+         <span class="next absolute mt-[-210px] ml-[1260px] rounded-3xl py-1 px-[12px] text-[25px]">
+            <i class='bx bx-right-arrow-alt'></i>
+         </span>
+      </main>
+
+      <section class="sec mt-20 ml-[160px]">
+         <h2 class="kate text-[28px]">Kategoriyalar</h2>
+         <div class="flex vse gap-[20px]">
+            <div class="card tel bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:350px)" srcset="./images/image6@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/image6.png">
+                  <img src="./images/image6.png" alt="img" class="rasm">
+               </picture>
+               <p class="text-center text-[16px] font-normal">Smartfonlar</p>
+            </div>
+
+            <div class="card num bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:350px)" srcset="images/noutbook@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/noutbook.png">
+                  <img src="./images/noutbook.png" alt="img">
+               </picture>
+               <p class="text-center text-[16px] font-normal ">Kompyuterlar va
+                  notebooklar</p>
+            </div>
+
+            <div class="card tel bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/TV@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/TV.png">
+                  <img src="./images/TV.png" alt="img">
+               </picture>
+               <p class="text-center text-[16px] font-normal">Televizorlar</p>
+            </div>
+
+            <div class="card num bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/soat@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/soat.png">
+                  <img src="./images/soat.png" alt="img">
+               </picture>
+               <p class="text-center text-[16px] font-normal">Aqlli soatlar</p>
+            </div>
+
+            <div class="card tel bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/airpods@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/airpods.png">
+                  <img src="./images/airpods.png" alt="img">
+               </picture>
+               <p class="text-center text-[16px] font-normal">Quloqchinlar</p>
+            </div>
+
+            <div class="card num bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/cond@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/cond.png">
+                  <img src="./images/cond.png" alt="img">
+               </picture>
+               <p class="text-center text-[16px] font-normal">Konditsioner</p>
+            </div>
+
+            <div class="card tel bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/fridg@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/fridg.png">
+                  <img src="./images/fridg.png" alt="img">
+               </picture>
+               <p class="text-center text-[16px] font-normal">Sovutkichlar</p>
+            </div>
+
+            <div class="card num bg-white w-[135px] h-[200px] pt-1 rounded-lg mt-5">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/washing@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/washing.png">
+                  <img src="./images/washing.png" alt="img">
+               </picture>
+               <p class="text-center text-[16px] font-normal">Kir yuvish mashinalari</p>
+            </div>
+         </div>
+
+         <h3 class="fil w-[1227px] bg-white mt-5 text-center py-[14px] rounded-lg">Batafsil</h3>
+      </section>
+
+      <section class="mt-10 ml-[160px] text-[28px]">
+         <h2 class="eng">Eng ko’p sotilgan</h2>
+         <div class="mt-5 ">
+
+            <div class="comp flex flex-wrap gap-[19px]"></div>
+
+            <h3 class="kor w-[1220px] text-[18px] bg-white mt-[37px] text-center py-[14px] rounded-lg">Ko’proq ko’rish
+            </h3>
+         </div>
+      </section>
+
+      <section class="sofa mt-[60px] ml-[160px]">
+         <h2 class="none">slayd</h2>
+         <div class="slayd  flex overflow-x-hidden w-[1220px]">
+            <div class="slayd_list flex ">
+               <img src="./images/sofa@2x.png" alt="img" class="slayd-item">
+               <img src="./images/sofa@2x.png" alt="img" class="slayd-item">
+               <img src="./images/sofa@2x.png" alt="img" class="slayd-item">
+            </div>
+         </div>
+         <span class="chap absolute w-11 h-11 mt-[-140px] ml-[-70px] rounded-3xl py-1 px-[12px] text-[25px]">
+            <i class='bx bx-left-arrow-alt'></i>
+         </span>
+         <span class="on absolute mt-[-140px] ml-[1240px] rounded-3xl py-1 px-[12px] text-[25px]">
+            <i class='bx bx-right-arrow-alt'></i>
+         </span>
+      </section>
+
+      <section class="oma mt-[86px]">
+         <h2 class="ml-[166px] text-[28px]">Eng ommabop</h2>
+         <div class="mt-5 ml-[156px]">
+
+            <div class="flex flex-wrap run gap-[19px]"></div>
+
+            <h3 class="w-[1220px] text-[18px] bg-white mt-[37px] text-center py-[14px] rounded-lg">Ko’proq ko’rish</h3>
+         </div>
+      </section>
+
+      <section class="mt-[60px] ml-[155px]">
+         <h2 class="text-[28px] eng">Brendlar bo’yicha</h2>
+
+         <div class="brand flex gap-[20px]">
+            <div class="rend card rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="./images/hp.png">
+                  <source media="(max-width:768px)" srcset="./images/hp@2x.png">
+                  <img src="./images/hp.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="big card rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/acer@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/acer.png">
+                  <img src="./images/acer.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card rend rounded-lg bg-white w-[188px] h-24 mt-[30px]  pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/asus@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/asus.png">
+                  <img src="./images/asus.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card big rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/samsung@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/samsung.png">
+                  <img src="./images/samsung.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card rend rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/apple@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/apple.png">
+                  <img src="./images/apple.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card big rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/msi@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/msi.png">
+                  <img src="./images/msi.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+         </div>
+
+         <div class="brand flex gap-[20px]">
+            <div class="card rend rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/mi@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/mi.png">
+                  <img src="./images/mi.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card big rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/vivo@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/vivo.png">
+                  <img src="./images/vivo.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card oq rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/oq@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/oq.png">
+                  <img src="./images/oq.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card oq rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/oq@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/oq.png">
+                  <img src="./images/oq.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card oq rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/oq@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/oq.png">
+                  <img src="./images/oq.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card oq rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/oq@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/oq.png">
+                  <img src="./images/oq.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+         </div>
+      </section>
+
+      <section class="sofa mt-[60px] ml-[160px]">
+         <h2 class="none">slayd</h2>
+         <div class="baner  flex overflow-x-hidden w-[1220px]">
+            <div class="baner_list flex ">
+               <img src="./images/sofa@2x.png" alt="img" class="baner-item">
+               <img src="./images/sofa@2x.png" alt="img" class="baner-item">
+               <img src="./images/sofa@2x.png" alt="img" class="baner-item">
+            </div>
+         </div>
+         <span class="left absolute w-11 h-11 mt-[-140px] ml-[-70px] rounded-3xl py-1 px-[12px] text-[25px]">
+            <i class='bx bx-left-arrow-alt'></i>
+         </span>
+         <span class="rayt absolute mt-[-140px] ml-[1240px] rounded-3xl py-1 px-[12px] text-[25px]">
+            <i class='bx bx-right-arrow-alt'></i>
+         </span>
+      </section>
+
+      <section class="mt-[86px] ml-[155px]">
+         <h2 class="eng text-[28px]">Do’konlarimiz</h2>
+
+         <div class="dokon flex gap-[20px]">
+            <div class="card makon rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/el@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/el.png">
+                  <img src="./images/el.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card mark rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/mart@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/mart.png">
+                  <img src="./images/mart.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card makon rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/media@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/media.png">
+                  <img src="./images/media.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card mark rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/sandiq@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/sandiq.png">
+                  <img src="./images/sandiq.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card makon rounded-lg bg-white w-[188px] h-24 mt-[30px]  pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/good@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/good.png">
+                  <img src="./images/good.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+
+            <div class="card mark rounded-lg bg-white w-[188px] h-24 mt-[30px] pl-10 pt-2">
+               <picture class="">
+                  <source media="(max-width:375px)" srcset="images/oq@2x.png">
+                  <source media="(max-width:768px)" srcset="./images/oq.png">
+                  <img src="./images/oq.png" alt="img" class="w-[90px] h-[90px]">
+               </picture>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer mt-[80px] h-[530px]">
+         <div class="foot flex gap-[100px]">
+            <div class="ent pt-[60px] ml-[155px] ">
+               <h3 class="font-bold">Hujjatlar</h3>
+               <ul>
+                  <li class="mt-5"><a href="#">Umumiy shartlar</a></li>
+                  <li class="mt-5"><a href="#">Ofertalar arxivi</a></li>
+                  <li class="mt-5"><a href="#">Nizom</a></li>
+                  <li class="mt-5"><a href="#">Guvohnoma</a></li>
+               </ul>
+            </div>
+
+            <div class="end pt-[60px]">
+               <h3 class="font-bold">Servis</h3>
+               <ul>
+                  <li class="mt-5"><a href="#">Do’konlar</a></li>
+                  <li class="mt-5"><a href="#">Biz haqimizda</a></li>
+                  <li class="mt-5"><a href="#">Hamkorlik uchun</a></li>
+                  <li class="mt-5"><a href="#">Qaytarish</a></li>
+                  <li class="mt-5"><a href="#">Promokodlar</a></li>
+               </ul>
+            </div>
+
+            <div class="end pt-[60px]">
+               <h3 class="font-bold">Mahsulotlar katalogi</h3>
+               <ul>
+                  <li class="mt-5"><a href="#">Katalog 1</a></li>
+                  <li class="mt-5"><a href="#">Katalog 1</a></li>
+                  <li class="mt-5"><a href="#">Katalog 2</a></li>
+                  <li class="mt-5"><a href="#">Katalog 2</a></li>
+                  <li class="mt-5"><a href="#">Katalog 3</a></li>
+                  <li class="mt-5"><a href="#">Katalog 3</a></li>
+               </ul>
+            </div>
+
+            <div class="end pt-[60px] ml-[260px]">
+               <h3 class="font-bold mb-5">Axbarot xizmati</h3>
+               <a href="mailto:nextstore@gmail.com">contact.@nextstore.uz</a>
+               <br>
+               <br>
+               <a href="tel:+998977129696">+998977129696</a>
+               <br>
+               <a href="tel:+998955030909">+998955030909</a>
+               <p class="text-[16px] w-[335px] mt-5">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</p>
+               <div class="com mt-[27px] ">
+                  <picture class="">
+                     <source media="(max-width:350px)" srcset="images/set@2x.png">
+                     <source media="(max-width:768px)" srcset="./images/set.png">
+                     <img src="./images/set.png" alt="img" class="h-[42px]">
+                  </picture>
+               </div>
+            </div>
+         </div>
+         <div class="com ml-[155px] mt-10">
+            <hr class="w-[1240px]">
+            <div class="pow flex justify-between w-[1230px] mt-10">
+               <p>2022 Nextstore.com</p>
+               <p class="by">Powered by</p>
+            </div>
+         </div>
+      </footer>
+   </div>
+
+   <script src="./scripts/products.js"></script>
+   <script src="./scripts/app.js"></script>
+   <script src="./scripts/index.js"></script>
+</body>
+
+</html>
